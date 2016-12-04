@@ -1,39 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Basic Details -->
   <meta charset="utf-8">
   <title>Sumandro Chattapadhyay</title>
   <meta name="description" content="Sumandro, Sumandro Chattapadhyay, ajantriks">
   <meta name="author" content="ajantriks">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Mobile Meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Bungee|Fira+Mono:400" rel="stylesheet">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- CSS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="img/favicon.png">
-
 </head>
 <body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
+      <!-- Header -->
       <div class="eight columns nav">
 	<p>Sumandro Chattapadhyay</p>
 	<ul class="menu">
@@ -42,15 +29,16 @@
 	  <li><a href="#about">About</a></li>
 	</ul>
       </div>
+      <!-- Most Recent Post -->
       <div class="eight columns content">
-        <h1><a href="posts/faq-whatsapp-demonetisation.html">FAQ for Two Moments: WhatsApp and Demonetisation</a></h1>
+        <h1><a href="posts/faq-whatsapp-demonetisation.html">FAQ: The WhatsApp Moment and Demonetisation</a></h1>
         <h6>December 04, 2016</h6>
-        <p>Hint: The keyword is “unbundling”.
 	<p>Note: This is an opinion piece written in the form of a Frequently Asked Questions (FAQ) document. All the “answers” provided here are merely the opinion of the author.</p>
 	<h2>What is the WhatsApp moment?</h2>
 	<p>At the TiE LeapFrog event in last year August, Nandan Nilekani shared a provocation: “are we at a WhatsApp Moment in finance?” He explained how in 2009, the peer-to-peer messaging space was “disrupted” by WhatsApp. Not because it pushed people to sign-in to all other websites and services using a WhatsApp account, the way Google and Facebook was pushing. Not because it pushed people to keep buying special SMS packs, the way the telecos were pushing. But because WhatsApp embraces an already existing unique digital ID – the mobile phone number – and used it to connect people to each other – using the address book as the already existing “social graph” – and offered messaging service at minimal (data) cost. Furthermore, Nandan shared that in “rural India”, they call WhatsApp nothing but “Free SMS.”<p>
 	<h4><a href="posts/faq-whatsapp-demonetisation.html">Continue  reading</a></h4>
       </div>
+      <!-- About -->
       <div class="eight columns about" id="about">
 	<h2>About</h2>
 	<p>Am a researcher with interests ranging across history and politics of informatics, new media and technology studies, and political economy. I am also keenly interested in computational techniques in arts, humanities, and social research, and emerging methodological questions.</p>
@@ -62,14 +50,29 @@
 	GitHub: <a href="http://github.com/ajantriks/" target="_blank">@ajantriks</a><br />
 	Twitter: <a href="https://twitter.com/ajantriks" target="_blank">@ajantriks</a></p>
       </div>
+      <!-- Footer -->
       <div class="eight columns footer">
-	<p>Built on <a href="http://getskeleton.com/" target="_blank">Skeleton</a>. <a href="https://fonts.google.com/specimen/Bungee" target="_blank">Bungee</a> and <a href="https://fonts.google.com/specimen/Fira+Mono" target="_blank">Fira Mono</a> fonts served by <a href="https://www.google.com/fonts" target="_blank">Google</a>.<br />
+	<p>Handwritten using <a href="http://getskeleton.com/" target="_blank">Skeleton</a> and <a href="http://anthonyly.com/jquery.plugins/scrolline/" target="_blank">Scrolline</a>.<br />
+	<a href="https://fonts.google.com/specimen/Bungee" target="_blank">Bungee</a> and <a href="https://fonts.google.com/specimen/Fira+Mono" target="_blank">Fira Mono</a> fonts served by <a href="https://www.google.com/fonts" target="_blank">Google</a>. Hosted on <a href="https://github.com/ajantriks/ajantriks.github.com" target="_blank">GitHub</a>.<br />
 	All content is shared under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International</a> license.</p>
       </div>
     </div>
   </div>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- scrolline.js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/scrolline.js"></script>
+<script>
+  $(function() {
+    $.scrolline({
+      direction : 'vertical',
+      position : 'left',
+      backColor : '#999',
+      frontColor : '#2a6496',
+      weight : 8
+    });
+  });
+</script>
+<!-- Hypothes.is  
+<script async defer src="https://hypothes.is/embed.js"></script> -->
 </body>
 </html>
