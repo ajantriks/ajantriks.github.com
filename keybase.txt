@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/ajantriks
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ajantriks.net
+  * I am ajantriks (https://keybase.io/ajantriks) on keybase.
+  * I have a public key with fingerprint 5047 0F64 96C4 7D8B 6EC9  15BD B964 6B5F 33B1 6054
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01018923024883b3e9825ee06f928d1a273ea935b2e70d8df8fb4eb8ecbb4c0a34490a",
+            "fingerprint": "50470f6496c47d8b6ec915bdb9646b5f33b16054",
+            "host": "keybase.io",
+            "key_id": "b9646b5f33b16054",
+            "kid": "01018923024883b3e9825ee06f928d1a273ea935b2e70d8df8fb4eb8ecbb4c0a34490a",
+            "uid": "ee20fbbe39ac0064abceb31b0e26aa19",
+            "username": "ajantriks"
+        },
+        "service": {
+            "hostname": "ajantriks.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1483557827,
+    "expire_in": 157680000,
+    "prev": "aae2cb1f5064d2d64a6fd97890a9564732048a33d48a67765506f92ec021ea70",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUltIFUEYPkcz6YQZFEEpRUvQzXR2d/Z2ukBBFkVFaLdTdJzZ/Ve3o7uns6sZ
+UkGBZkUXqYioXroXhaEZFiShgiH1kEQ9RBkSpBZUKh19kGYP9RI9Ng8zzD/f9/3f
+9zOns9IDacFWIxYVH5QUB7v7aWB7xfq3NRx1jP1cuIaLQeqAcgNcLxqzDC7MIR7x
+qiaISMCqKlIRNFWQAJBsaoJq8ERQRCCaKFEBFGSohqmaFANVQacU64iIGGuIcHmc
+admlkIgnLNtjshLCCjJlrMk6VgyVyqBrvEQNqslYppIpipSXkYQZscxxfQYzR4kL
++ZbDauwSTdn7B/4/+65MyQEIyKQURI3oCMmYUB2oyFMEgkwIr/lAFxI2qQCGJnuI
+7SWsmMsdyONYucrSwZ+sH+VvSL4NHmPHE47n6E45eyrzvHjYZ3r74z50H9Dob5Eo
+tWyDDZIRqiDhWo7NhXmG1D3LV+WxKkqSogpKHgfVcSsBUctHSIqsIrb8NlDldycg
+6DTCmxLLYggGCySbhqaoLLMmyVgRBYRVIooG22VFkSUpNTnQkcADURDn59prO0xc
+ZEZJKRN1rVKbeJUJ4A6E6oO5EwLBtMDEjDT/jwVCk6b++XhCW+b44vqewmVll+ti
+F2/34WTJgpYdFy9HhmpXnr93paR288kjW+py68JuJPmmYrBn6PzR0bX9yb5PP7sO
+Kh2LprTuffxhW9EyenjFnDWXcM/gibPXp2SPfmheKjQ2HBo8fup+VxNXmLtz/sOn
+x64pSuPC9pLqU5Pb7srPm6dzK4pm/Ng67eqeWyPBzm+91qrdXyaMZbdnSsXLQzOL
+0j92dg0L+Ma5QSdtLe5Mxp/cvLOm0p3V3bLkq6X3f5cj65TVDQXvp+YsyR9P31B9
+reN1U9PwQP2jYn38xatdmxbFQoUbB172XMgof9d2eOaseWdOjrS//gQFWb3PAh6c
+OJiRPmdu8ezoWM7nXw==
+=EXNY
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ajantriks
+
+==================================================================
